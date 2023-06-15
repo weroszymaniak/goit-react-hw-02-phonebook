@@ -23,7 +23,7 @@ const ContactList = ({ contacts, removeContact }) => (
 
 ContactList.propTypes = {
   contacts: PropTypes.object.isRequired,
-  removeContact: Proptypes.func.isRequired,
+  removeContact: PropTypes.func.isRequired,
 };
 
 export default ContactList;
