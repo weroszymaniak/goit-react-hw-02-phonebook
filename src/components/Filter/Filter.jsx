@@ -4,9 +4,14 @@ import css from './Filter.module.css';
 
 function Filter({ value, onFilter }) {
   return (
-    <div>
-      <p>Find contacts by name</p>
-      <input type="text" value={value} onChange={onFilter} />
+    <div className={css.container}>
+      <p className={css.call}>Find contacts by name</p>
+      <input
+        className={css.input}
+        type="text"
+        value={value}
+        onChange={onFilter}
+      />
     </div>
   );
 }
