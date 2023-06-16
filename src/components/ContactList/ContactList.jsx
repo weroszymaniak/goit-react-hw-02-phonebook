@@ -23,7 +23,7 @@ const ContactList = ({ contacts, removeContact }) => (
 );
 
 ContactList.propTypes = {
-  contacts: PropTypes.object.isRequired,
+  contacts: PropTypes.array.isRequired,
   removeContact: PropTypes.func.isRequired,
 };
 
